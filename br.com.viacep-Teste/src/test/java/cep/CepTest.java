@@ -30,7 +30,7 @@ public class CepTest {
         .then()
             .log().all()
             .statusCode(200)
-            .body("logradouro", is("Rua erson"))
+            .body("logradouro", is("Rua Fábio Constantini"))
         ;
     }
 
